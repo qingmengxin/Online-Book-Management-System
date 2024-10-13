@@ -1,1 +1,61 @@
+public class Book {
+    // 图书属性
+    private String title;       // 图书标题
+    private String author;      // 作者
+    private String isbn;        // 国际标准书号
+    private int publicationYear; // 出版年份
+    private int copies;         // 库存数量
+
+    // 构造函数
+    public Book(String title, String author, String isbn, int publicationYear, int copies) {
+        this.title = title;
+        this.author = author;
+        this.isbn = isbn;
+        this.publicationYear = publicationYear;
+        this.copies = copies;
+    }
+
+    // Getter和Setter方法
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    public int getPublicationYear() {
+        return publicationYear;
+    }
+
+    public void setPublicationYear(int publicationYear) {
+        this.publicationYear = publicationYear;
+    }
+
+    public int getCopies() {
+        return copies;
+    }
+
+    public void setCopies(int copies) {
+        this.copies = copies;
+    }
+    
+    // 其他方法，可以根据需求添加，例如检查库存、借书等功能
+}
 
